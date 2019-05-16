@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
     s.author                = { 'tconan99' => 'lovetconan@gmail.com' }
     s.platform              = :ios, '10.0'
     s.source                = {
-        :git => 'https://github.com/tconan/xg-push-ios.git'
-        # , :tag => '2.4.2'
+        :git => 'https://github.com/tconan/xg-push-ios.git', :tag => '3.3.5'
     }
     s.source_files          = 'sdk/*.h'
     s.vendored_libraries    = 'sdk/*.a'
